@@ -10,3 +10,11 @@ License: GPLv3+ (see [COPYING](https://raw.githubusercontent.com/pstavirs/ostina
 
 For more information visit http://ostinato.org.
 
+# Building Example
+
+## Ubuntu 14.04 LTS
+
+1. sudo apt-get install qt4-qmake protobuf-compiler qt4-dev-tools libprotoc-dev libpcap-dev
+2. qmake
+3. make
+4. make install
